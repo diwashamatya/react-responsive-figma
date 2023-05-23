@@ -56,19 +56,19 @@ function Homepage() {
 
       {/* form */}
 
-      <div className="border w-auto h-auto flex flex-col  bg-white  mt-[121px] items-center md:w-[510px] md:h-[510px] rounded">
-        <h1 className="  w-auto h-auto font-bold  text-4xl mt-[73px] mb-6 md:w-[201px] md:h-[37px]">
+      <div className="border w-auto h-auto flex flex-col  bg-white  mt-[121px] items-center md:w-[520px] md:h-[520px] rounded">
+        <h1 className="   w-auto h-auto font-bold  text-center text-4xl mt-[100px] mb-6 md:w-[201px] md:h-[37px]">
           Sign in
         </h1>
         <form
           onSubmit={onSubmitHandler}
-          className=" flex flex-col w-auto h-auto border-sky-50 md:w-[287px] md:h-[40px] "
+          className="  border flex flex-col w-auto h-auto border-sky-50 md:w-[287px] md:h-auto "
         >
           <label className="p-2 w-auto h-auto  md:w-[287px] md:h-[40px]">
             Email:
           </label>
           <input
-            className=" w-auto h-auto md:w-[290px] md:h-[80px] p-3 bg-[#F3F3F3] "
+            className=" w-auto h-auto md:w-[290px] md:h-[40px] p-3 bg-[#F3F3F3] "
             type="email"
             name="email"
             value={email}
@@ -80,7 +80,7 @@ function Homepage() {
             Password:
           </label>
           <input
-            className="w-auto h-auto md:w-[290px] md:h-[80px] p-3  bg-[#F3F3F3] "
+            className="w-auto h-auto md:w-[290px] md:h-[40px] p-3  bg-[#F3F3F3] "
             type="password"
             name="password"
             value={pass}
@@ -89,7 +89,7 @@ function Homepage() {
           ></input>
 
           <button
-            className="  w-auto h-auto md:w-[290px] md:h-[200px] md:mt-5 bg-[#3F2158] rounded text-cyan-50 hover:text-cyan-300"
+            className="  w-auto h-auto md:w-[290px] md:h-[60px] md:mt-5 bg-[#3F2158] rounded text-cyan-50 hover:text-cyan-300"
             type="submit"
           >
             Log In
