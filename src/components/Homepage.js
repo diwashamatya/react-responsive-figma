@@ -20,10 +20,7 @@ function Homepage() {
   };
 
   return (
-    <div
-      className="  bg-center bg-cover bg-[#2D1841] flex flex-col  w-auto h-auto md:flex  md:flex-row md:justify-around   md:w-full md:h-[752px] "
-      style={{ backgroundImage: "url('../assets/backgrd.png')" }}
-    >
+    <div className="   bg-[#2D1841] flex flex-col  w-auto h-auto md:flex  md:flex-row md:justify-around   md:w-full md:h-[752px] ">
       <div className="  text-start mt-[178px] w-auto h-auto md:w-[488px] md:h-[396px] ">
         <div className=" border w-[96px] h-[96px] rounded-full bg-white">
           <div className="  ">
