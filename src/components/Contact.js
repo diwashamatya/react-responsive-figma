@@ -12,14 +12,14 @@ function Contact() {
     console.log("submitted");
   };
   return (
-    <div className="  bg-[#2D1841] w-auto h-auto  md:w-[1590px]   md:h-[752px]   ">
+    <div className="  bg-[#2D1841] w-auto h-auto  md:w-full  md:h-[752px]   ">
       <div className="flex  flex-col md:justify-evenly md:flex-row md:items-center ">
         <div className="mt-[178px] text-white mb-4">
           <header className=" m-2 mb-7">
-            <p className=" w-[380px] h-[80px] text-[30px] my-2 ">
+            <p className=" w-auto h-auto md:w-[380px] md:h-[80px] text-[30px] my-2 ">
               आर्पिया नेपालको नागरिक वडापत्रमा स्वागत छ ।
             </p>
-            <p className="h-[63px] w-[488px]  text-[14px]  text-center  my-3">
+            <p className="w-auto h-auto md:h-[63px] md:w-[488px]  text-[14px]  text-center  my-3">
               आर्पिया नेपालको नागरिक वडापत्रमा वेबसाइटनमा तपाईहरुलाई स्वागत छ ।
               नेपाल एक देश हो , जो स्वोतन्त्र समयमा भएको छ । येश्को उत्तरमा
               तिबाता, भार त, पूर्वमा भारत र पशिचमा भारतले सिमा छन् ।
@@ -29,15 +29,20 @@ function Contact() {
             <ul>
               <li className="flex">
                 <img src={myMail} alt=""></img>
-                <a className="hover:text-violet-700 pl-2" href="#">
+                <a
+                  className="hover:text-violet-700 pl-2"
+                  href="www.example.com "
+                >
                   hello@rpanp.com
                 </a>
               </li>
               <li className="flex">
                 <img src={myPhone} alt=""></img>
 
-                <a className="hover:text-violet-700 pl-2" href="#">
-                  {" "}
+                <a
+                  className="hover:text-violet-700 pl-2"
+                  href="www.example.com "
+                >
                   +977 9843777722
                 </a>
               </li>
@@ -50,19 +55,19 @@ function Contact() {
             <ul>
               <li className="flex ">
                 <img src={fb} alt="" />
-                <a className="px-2 hover:text-sky-400" href="">
+                <a className="px-2 hover:text-sky-400" href="www.example.com ">
                   @rpanepal
                 </a>
               </li>
               <li className="flex">
                 <img src={ins} alt="" />
-                <a className="px-2 hover:text-sky-400" href="">
+                <a className="px-2 hover:text-sky-400" href="www.example.com ">
                   @rpanepal
                 </a>
               </li>
               <li className="flex">
                 <img src={lin} alt="" />
-                <a className="px-2 hover:text-sky-400" href="">
+                <a className="px-2 hover:text-sky-400" href="www.example.com ">
                   @rpanepal
                 </a>
               </li>
@@ -77,27 +82,27 @@ function Contact() {
           <div className=" text-[40px] pb-2 mx-9">Contact</div>
 
           <input
-            className=" bg-[#450f57] border border-solid placeholder:text-white placeholder:p-1 border-white rounded-[5px] w-auto h-auto md:w-[400px] md:h-[50px] md:my-4 md:mx-9"
+            className=" bg-[#450f57] border border-solid placeholder:text-white placeholder:p-1 border-white rounded-[5px] w-auto h-auto md:w-[400px] md:h-[50px] my-4 mx-9"
             type="text"
             placeholder="Name"
             required
           ></input>
           <input
-            className=" bg-[#450f57]  border border-solid placeholder:text-white placeholder:p-1 border-white rounded-[5px] w-auto h-auto md:w-[400px] md:h-[50px] md:my-4 md:mx-9"
+            className=" bg-[#450f57]  border border-solid placeholder:text-white placeholder:p-1 border-white rounded-[5px] w-auto h-auto md:w-[400px] md:h-[50px] my-4 mx-9"
             type="email"
             placeholder="Email"
             required
           ></input>
           <input
-            className=" bg-[#450f57] border border-solid placeholder:text-white placeholder:p-1 border-white rounded-[5px] w-auto h-auto md:w-[400px] md:h-[50px] md:my-4 md:mx-9"
+            className=" bg-[#450f57] border border-solid placeholder:text-white placeholder:p-1 border-white rounded-[5px] w-auto h-auto md:w-[400px] md:h-[50px] my-4 mx-9"
             type="text"
             placeholder="Subject"
           ></input>
           <textarea
-            className=" bg-[#450f57] resize-none border border-solid placeholder:pt-1 border-white rounded-[5px] placeholder:text-center placeholder:text-white  w-auto h-auto md:w-[400px] md:h-[128px] md:my-4 md:mx-9"
+            className=" bg-[#450f57] resize-none border border-solid placeholder:pt-1 border-white rounded-[5px] placeholder:text-center placeholder:text-white  w-auto h-auto md:w-[400px] md:h-[128px] my-4 mx-9"
             placeholder="Message"
           ></textarea>
-          <div className="flex justify-end md:mr-9">
+          <div className="flex justify-end mr-9">
             <button className="border  font-bold w-[200px] h-[48px]  bg-[#3F2158] rounded text-cyan-50 hover:bg-slate-800  md:my-4">
               Submit
             </button>

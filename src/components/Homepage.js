@@ -21,10 +21,10 @@ function Homepage() {
 
   return (
     <div
-      className="  bg-center bg-cover bg-[#2D1841] flex flex-col  w-auto h-auto md:flex  md:flex-row md:justify-around   md:w-[1590px] md:h-[752px] "
+      className="  bg-center bg-cover bg-[#2D1841] flex flex-col  w-auto h-auto md:flex  md:flex-row md:justify-around   md:w-full md:h-[752px] "
       style={{ backgroundImage: "url('../assets/backgrd.png')" }}
     >
-      <div className="  text-start mt-[178px]  w-[488px] h-[396px] ">
+      <div className="  text-start mt-[178px] w-auto h-auto md:w-[488px] md:h-[396px] ">
         <div className=" border w-[96px] h-[96px] rounded-full bg-white">
           <div className="  ">
             <div className=" text-center  text-4xl mt-5 p-1 font-bold text-[#33204E]">
@@ -49,7 +49,7 @@ function Homepage() {
           </p>
         </div>
 
-        <button className="bg-white hover:bg-sky-200 text-blue font-bold  rounded  w-[176px] h-[48px]  mt-5">
+        <button className="bg-white w-auto h-auto hover:bg-sky-200 text-blue font-bold  rounded  md:w-[176px] md:h-[48px]  md:mt-5">
           थप जननुहोस
         </button>
       </div>
@@ -57,18 +57,18 @@ function Homepage() {
       {/* form */}
 
       <div className="border w-auto h-auto flex flex-col  bg-white  mt-[121px] items-center md:w-[510px] md:h-[510px] rounded">
-        <h1 className=" font-aakriti  w-auto h-auto font-bold  text-4xl mt-[73px] mb-4 md:w-[201px] md:h-[37px]">
+        <h1 className="  w-auto h-auto font-bold  text-4xl mt-[73px] mb-6 md:w-[201px] md:h-[37px]">
           Sign in
         </h1>
         <form
           onSubmit={onSubmitHandler}
-          className=" flex flex-col w-auto h-auto border-sky-50 "
+          className=" flex flex-col w-auto h-auto border-sky-50 md:w-[287px] md:h-[40px] "
         >
           <label className="p-2 w-auto h-auto  md:w-[287px] md:h-[40px]">
             Email:
           </label>
           <input
-            className=" w-auto h-auto md:w-[372px] md:h-[48px]  bg-[#F3F3F3] "
+            className=" w-auto h-auto md:w-[290px] md:h-[80px] p-3 bg-[#F3F3F3] "
             type="email"
             name="email"
             value={email}
@@ -80,7 +80,7 @@ function Homepage() {
             Password:
           </label>
           <input
-            className="w-auto h-auto md:w-[372px] md:h-[48px]  bg-[#F3F3F3] "
+            className="w-auto h-auto md:w-[290px] md:h-[80px] p-3  bg-[#F3F3F3] "
             type="password"
             name="password"
             value={pass}
@@ -89,7 +89,7 @@ function Homepage() {
           ></input>
 
           <button
-            className="  w-auto h-auto md:w-[372px] md:h-[48px] md:mt-8 bg-[#3F2158] rounded text-cyan-50 hover:text-cyan-300"
+            className="  w-auto h-auto md:w-[290px] md:h-[200px] md:mt-5 bg-[#3F2158] rounded text-cyan-50 hover:text-cyan-300"
             type="submit"
           >
             Log In
