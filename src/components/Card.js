@@ -30,7 +30,7 @@ function Card({ items }) {
             >
               <p className="text-start text-[25px] pb-3">{data.name}</p>
               <p className="flex flex-col md:flex-row w-auto h-auto text-[15px] pb-2">
-                <img className="w-[40px] h-[40px] md:w-auto md:h-auto " src={myMail} alt="mail " />
+                <img className="w-[20px] h-[20px] md:w-auto md:h-auto " src={myMail} alt="mail " />
                 <a
                   className="hover:text-fuchsia-400 pl-2"
                   href="www.example.com "
@@ -39,7 +39,7 @@ function Card({ items }) {
                 </a>
               </p>
               <p className="flex flex-col md:flex-row w-auto h-auto text-[15px] pb-2">
-                <img className="w-[40px] h-[40px] md:w-auto md:h-auto " src={myPhone} alt="phone " />
+                <img className="w-[20px] h-[20px] md:w-auto md:h-auto " src={myPhone} alt="phone " />
 
                 <a
                   className="hover:text-fuchsia-400 pl-2"
@@ -49,7 +49,7 @@ function Card({ items }) {
                 </a>
               </p>
               <p className="flex  flex-col md:flex-row w-auto h-auto text-[15px] pb-2">
-                <img className="w-[40px] h-[40px] md:w-auto md:h-auto " src={myLoc} alt="location " />
+                <img className="w-[20px] h-[20px] md:w-auto md:h-auto " src={myLoc} alt="location " />
                 <span className="pl-2">{data.location}</span>
               </p>
             </div>
