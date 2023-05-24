@@ -14,7 +14,7 @@ function About() {
           <source src={video}></source>
         </video>
       </div>
-      <div className=" flex w-auto h-auto flex-col text-white items-start justify-center  md:w-[454px]  md:h-[399px] ">
+      <div className=" mt-10 md:mt-0 flex w-auto h-auto flex-col text-center md:text-start text-white md:items-start justify-center  md:w-[454px]  md:h-[399px] ">
         <p className="  text-[15px] font-normal">वडापत्र</p>
         <p className="font-family: 'Aakriti' text-[30px] font-normal ">
           वडापत्र भनेको के हो ?
