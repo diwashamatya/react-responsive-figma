@@ -4,7 +4,7 @@ import myLogo from "../assets/white.png";
 function Footer() {
   return (
     <>
-      <div className="    bg-[#2D1841] flex flex-col justify-evenly items-center text-center  w-auto   h-auto md:w-full md:h-[390px]  ">
+      <div className="   p-10 bg-[#2D1841] flex flex-col justify-evenly items-center text-center  w-auto   h-auto md:w-full md:h-[390px]  ">
         <div className="  flex flex-col justify-evenly items-center text-center  ">
           <img className="  md:w-[153px] md:h-[81px]" src={myLogo} alt="logo" />
           <p className="font-normal  w-auto text-white  mt-5 text-[18px] md:w-[504px] ">
