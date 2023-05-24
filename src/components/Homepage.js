@@ -21,8 +21,8 @@ function Homepage() {
 
   return (
     <div className="   bg-[#2D1841] flex flex-col  w-auto h-auto md:flex  md:flex-row md:justify-around   md:w-full md:h-[752px] ">
-      <div className="  text-start mt-[178px] w-auto h-auto md:w-[488px] md:h-[396px] ">
-        <div className=" border w-[96px] h-[96px] rounded-full bg-white">
+      <div className="   flex  flex-col items-center md:items-start text-center md:text-start mt-[178px] w-auto h-auto md:w-[488px] md:h-[396px] ">
+        <div className=" mb-10 border w-[96px] h-[96px] rounded-full bg-white">
           <div className="  ">
             <div className=" text-center  text-4xl mt-5 p-1 font-bold text-[#33204E]">
               ई
@@ -46,7 +46,7 @@ function Homepage() {
           </p>
         </div>
 
-        <button className="bg-white w-auto h-auto hover:bg-sky-200 text-blue font-bold  rounded  md:w-[176px] md:h-[48px]  md:mt-5">
+        <button className="bg-white w-auto h-auto hover:bg-sky-200 text-blue font-bold  rounded  md:w-[176px] md:h-[48px]  mt-5">
           थप जननुहोस
         </button>
       </div>
@@ -54,18 +54,18 @@ function Homepage() {
       {/* form */}
 
       <div className="border w-auto h-auto flex flex-col  bg-white  mt-[121px] items-center md:w-[520px] md:h-[520px] rounded">
-        <h1 className="   w-auto h-auto font-bold  text-center text-4xl mt-[100px] mb-6 md:w-[201px] md:h-[37px]">
+        <h1 className="   w-auto h-auto font-bold  text-center text-4xl md:mt-[100px] mb-6 md:w-[201px] md:h-[37px]">
           Sign in
         </h1>
         <form
           onSubmit={onSubmitHandler}
           className="  border flex flex-col w-auto h-auto border-sky-50 md:w-[287px] md:h-auto "
         >
-          <label className="p-2 w-auto h-auto  md:w-[287px] md:h-[40px]">
+          <label className="md:p-2 w-auto h-auto  md:w-[287px] md:h-[40px]">
             Email:
           </label>
           <input
-            className=" w-auto h-auto md:w-[290px] md:h-[40px] p-3 bg-[#F3F3F3] "
+            className=" w-auto h-auto md:w-[290px] md:h-[40px] md:p-3 bg-[#F3F3F3] "
             type="email"
             name="email"
             value={email}
@@ -73,11 +73,11 @@ function Homepage() {
             required
           ></input>
 
-          <label className="p-2 w-auto h-auto md:w-[287px] md:h-[40px]">
+          <label className="md:p-2 w-auto h-auto md:w-[287px] md:h-[40px]">
             Password:
           </label>
           <input
-            className="w-auto h-auto md:w-[290px] md:h-[40px] p-3  bg-[#F3F3F3] "
+            className="w-auto h-auto md:w-[290px] md:h-[40px] md:p-3  bg-[#F3F3F3] "
             type="password"
             name="password"
             value={pass}
