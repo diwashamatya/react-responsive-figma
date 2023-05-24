@@ -3,7 +3,7 @@ import video from "../assets/video.mp4";
 
 function About() {
   return (
-    <div className="bg-[#2D1841]  w-auto h-auto flex flex-col md:flex-row md:justify-evenly md:items-center  md:w-[full md:h-[752px] ">
+    <div className="bg-[#2D1841]  pt-10 md:pt-auto w-auto h-auto flex flex-col md:flex-row md:justify-evenly md:items-center  md:w-[full md:h-[752px] ">
       <div className=" w-auto h-auto md:w-[690px] md:h-[399px] ">
         <video
           className="w-auto h-auto md:w-[690px] md:h-[399px] "
