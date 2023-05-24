@@ -25,7 +25,7 @@ function Contact() {
               तिबाता, भार त, पूर्वमा भारत र पशिचमा भारतले सिमा छन् ।
             </p>
           </header>
-          <div className="flex flex-col text-center md:text-start md:flex-row md:justify-evenly">
+          <div className="flex flex-col items-center md:items-auto  text-center md:text-start md:flex-row md:justify-evenly">
             <ul>
               <li className="flex">
                 <img src={myMail} alt=""></img>
