@@ -29,8 +29,8 @@ function Card({ items }) {
               key={data.id}
             >
               <p className="text-start text-[25px] pb-3">{data.name}</p>
-              <p className="flex text-[15px] pb-2">
-                <img src={myMail} alt="mail " />
+              <p className="flex flex-col md:flex-row w-auto h-auto text-[15px] pb-2">
+                <img className="w-[40px] h-[40px] md:w-auto md:h-auto " src={myMail} alt="mail " />
                 <a
                   className="hover:text-fuchsia-400 pl-2"
                   href="www.example.com "
@@ -38,8 +38,8 @@ function Card({ items }) {
                   {data.mail}
                 </a>
               </p>
-              <p className="flex text-[15px] pb-2">
-                <img src={myPhone} alt="phone " />
+              <p className="flex flex-col md:flex-row w-auto h-auto text-[15px] pb-2">
+                <img className="w-[40px] h-[40px] md:w-auto md:h-auto " src={myPhone} alt="phone " />
 
                 <a
                   className="hover:text-fuchsia-400 pl-2"
@@ -48,8 +48,8 @@ function Card({ items }) {
                   {data.phone}
                 </a>
               </p>
-              <p className="flex text-[15px] pb-2">
-                <img src={myLoc} alt="location " />
+              <p className="flex  flex-col md:flex-row w-auto h-auto text-[15px] pb-2">
+                <img className="w-[40px] h-[40px] md:w-auto md:h-auto " src={myLoc} alt="location " />
                 <span className="pl-2">{data.location}</span>
               </p>
             </div>
