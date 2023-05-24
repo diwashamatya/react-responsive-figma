@@ -21,7 +21,7 @@ function Homepage() {
 
   return (
     <div className="   bg-[#2D1841] flex flex-col  w-auto h-auto md:flex  md:flex-row md:justify-around   md:w-full md:h-[752px] ">
-      <div className="   flex  flex-col items-center md:items-start text-center md:text-start mt-[178px] w-auto h-auto md:w-[488px] md:h-[396px] ">
+      <div className="   flex  flex-col items-center md:items-start text-center md:text-start md:mt-[178px] w-auto h-auto md:w-[488px] md:h-[396px] ">
         <div className=" mb-10 border w-[96px] h-[96px] rounded-full bg-white">
           <div className="  ">
             <div className=" text-center  text-4xl mt-5 p-1 font-bold text-[#33204E]">
@@ -53,7 +53,7 @@ function Homepage() {
 
       {/* form */}
 
-      <div className="border w-auto h-auto flex flex-col  bg-white  mt-[121px] items-center md:w-[520px] md:h-[520px] rounded">
+      <div className="border w-auto h-auto flex flex-col  bg-white  mt-5 md:mt-[121px] items-center md:w-[520px] md:h-[520px] rounded">
         <h1 className="   w-auto h-auto font-bold  text-center text-4xl md:mt-[100px] mb-6 md:w-[201px] md:h-[37px]">
           Sign in
         </h1>
@@ -61,11 +61,11 @@ function Homepage() {
           onSubmit={onSubmitHandler}
           className="  border flex flex-col w-auto h-auto border-sky-50 md:w-[287px] md:h-auto "
         >
-          <label className="md:p-2 w-auto h-auto  md:w-[287px] md:h-[40px]">
-            Email:
+          <label className="p-2 text-center md:text-start w-auto h-auto  md:w-[287px] md:h-[40px]">
+            Email
           </label>
           <input
-            className=" w-auto h-auto md:w-[290px] md:h-[40px] md:p-3 bg-[#F3F3F3] "
+            className=" w-auto  h-auto md:w-[290px] md:h-[40px] md:p-3 bg-[#F3F3F3] "
             type="email"
             name="email"
             value={email}
@@ -73,8 +73,8 @@ function Homepage() {
             required
           ></input>
 
-          <label className="md:p-2 w-auto h-auto md:w-[287px] md:h-[40px]">
-            Password:
+          <label className="p-2 text-center md:text-start w-auto h-auto md:w-[287px] md:h-[40px]">
+            Password
           </label>
           <input
             className="w-auto h-auto md:w-[290px] md:h-[40px] md:p-3  bg-[#F3F3F3] "
@@ -86,7 +86,7 @@ function Homepage() {
           ></input>
 
           <button
-            className="  w-auto h-auto md:w-[290px] md:h-[60px] md:mt-5 bg-[#3F2158] rounded text-cyan-50 hover:text-cyan-300"
+            className="  w-auto h-auto mb-10 md:mb-auto md:w-[290px] md:h-[60px] md:mt-5 bg-[#3F2158] rounded text-cyan-50 hover:text-cyan-300"
             type="submit"
           >
             Log In
