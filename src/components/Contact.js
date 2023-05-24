@@ -16,7 +16,7 @@ function Contact() {
       <div className="flex  flex-col md:justify-evenly md:flex-row md:items-center ">
         <div className="mt-[178px] text-white mb-4">
           <header className=" m-2 mb-7">
-            <p className=" w-auto h-auto md:w-[380px] md:h-[80px] text-[30px] my-2 ">
+            <p className=" w-auto h-auto text-center md:text-start md:w-[380px] md:h-[80px] text-[30px] my-2 ">
               आर्पिया नेपालको नागरिक वडापत्रमा स्वागत छ ।
             </p>
             <p className="w-auto h-auto md:h-[63px] md:w-[488px]  text-[14px]  text-center  my-3">
@@ -25,7 +25,7 @@ function Contact() {
               तिबाता, भार त, पूर्वमा भारत र पशिचमा भारतले सिमा छन् ।
             </p>
           </header>
-          <div className="flex md:justify-evenly">
+          <div className="flex flex-col text-center md:text-start md:flex-row md:justify-evenly">
             <ul>
               <li className="flex">
                 <img src={myMail} alt=""></img>
@@ -79,7 +79,7 @@ function Contact() {
           className=" bg-[#450f57]  border w-auto h-auto flex flex-col md:justify-center md:p-[12px] md:mb-10 text-white placeholder:text-white md:w-[ 548px] md:h-auto mt-[121px]  rounded-md  "
           onSubmit={submitHandler}
         >
-          <div className=" text-[40px] pb-2 mx-9">Contact</div>
+          <div className=" w-auto h-auto text-center text-[40px] md:pb-2 mx-9">Contact</div>
 
           <input
             className=" bg-[#450f57] border border-solid placeholder:text-white placeholder:p-1 border-white rounded-[5px] w-auto h-auto md:w-[400px] md:h-[50px] my-4 mx-9"
