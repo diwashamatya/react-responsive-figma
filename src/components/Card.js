@@ -25,7 +25,7 @@ function Card({ items }) {
         <div className=" flex flex-col md:flex-row   justify-evenly pb-[20px]  ">
           {items.map((data) => (
             <div
-              className="border w-auto h-auto hover:bg-slate-800 bg-[#450f57] rounded-[20px] flex flex-col justify-center md:w-[368px] md:h-[208px] p-5 "
+              className="border mt-5 md:mt-auto w-auto h-auto hover:bg-slate-800 bg-[#450f57] rounded-[20px] flex flex-col justify-center md:w-[368px] md:h-[208px] p-5 "
               key={data.id}
             >
               <p className="text-start text-[25px] pb-3">{data.name}</p>
